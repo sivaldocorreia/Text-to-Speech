@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Text to Speech</title>
+</head>
+<body>
+    <main>
+        <div class="container
+        ">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center text-white tshadow mt-4">Text to Speech</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="text" class="text-white">Enter Text</label>
+                            <textarea name="" id="text" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="voice" class="text-white">Select Voice</label>
+                            <select name="" id="voice" class="form-control">
+                                <option value='Google US English'>Google US English</option>
+                                <option value='Google BR Portuguese'>Google Brazilian Portuguese</option> 
+                            </select>
+                        </div>
+                        <button type="submit" class="submit btn btn-secondary">Convert to Speech</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
